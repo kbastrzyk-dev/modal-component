@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Modal Window | Portfolio Project</title>
+  </head>
+  <body>
+    <main class="container">
+      <header class="header-content">
+        <h1>Interactive UI Components</h1>
+        <p>
+          Click the buttons below to explore my custom glassmorphic modal
+          windows.
+        </p>
+      </header>
+
+      <div class="button-container">
+        <button class="show-modal">Show modal 1</button>
+        <button class="show-modal">Show modal 2</button>
+        <button class="show-modal">Show modal 3</button>
+      </div>
+    </main>
+
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>I'm a modal window 😍</h1>
+      <p>This modal features glassmorphism and smooth CSS animations.</p>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
